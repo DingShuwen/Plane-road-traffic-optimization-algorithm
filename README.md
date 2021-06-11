@@ -18,4 +18,29 @@
 后来，改用vissim做了仿真：
 见《交通路口平面算法-3D字幕vis.mp4》
 
-我还有一个立交桥的交通最优算法模型，在后期的新存储库中提交
+我还有一个立交桥的交通最优算法模型，是一个很魔幻的方案，重点研究超大型城市立交桥的高通过率和高交换律结合的课题，将在后期的新存储库中提交
+
+
+Optimal algorithm model of plane traffic intersection
+
+October 2015
+
+After years of observation of roads and intersections in Beijing, combined with the analysis of the mathematical model of road traffic, I come to the conclusion that in the urban traffic congestion, the passing capacity of traffic intersections is the biggest and core bottleneck problem. Through the analysis of the mathematical model of the intersection, it is considered that there is still much room to improve its efficiency, and improving the crossing and exchange capacity of the intersection will greatly improve the urban road traffic congestion.
+
+The scheme is as follows: the intersection structure formed by the design of the limited resources of the reused intersection, the ingenious design of the passing rules, as shown in the figure, is a typical road structure and passing rules, which directly improves the efficiency by 20 ~ 50%; In theory, it is also the only substantial improvement. It is the inevitable choice to solve the public traffic congestion in big cities. In the case of occupying the same resources, the traffic capacity reaches the peak. This scheme has universal applicability, regardless of the left and right traffic rules; The scheme has the advantages of low cost and less land occupation. In some cases, it only needs to change the crossing line and traffic lights.
+
+I use C + + to do a primary simulation and demonstration software for the mathematical model of this intersection. As shown in the attached figure, it is a screenshot of the software running, edited, and detailed theoretical analysis and illustration in various cases.
+
+See demonstration video of limit algorithm of traffic passing rate at horizontal intersection.avi
+
+This scheme is the optimal model of plane traffic intersection mathematical algorithm, but there are many obstacles in this scheme, such as modifying traffic rules and traffic lights, which affect the promotion of the project. So I have done the instantiation work of this scheme, designed several typical traffic node improvement schemes in the city, these schemes are more practical, and I am going to apply for four utility model patents.
+
+These plans will greatly improve the total cost of road construction, floor area, vehicle flow and exchange volume, and the travel comfort of drivers and pedestrians.
+
+Plan to do 3D dynamic simulation model experiment with unity3d for traffic nodes in domestic cities with extremely congested traffic, and calculate the accurate analysis data; Refer to the figure below:
+
+Later, VISSIM was used for simulation
+
+See traffic intersection plane algorithm - 3D subtitle vis.mp4
+
+I also have a traffic optimal algorithm model of overpass, which is a magic scheme. It focuses on the research of the combination of high passing rate and high exchange law of super large urban overpass, which will be submitted in the later new repository
